@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interval_creator_introduction" />
+
+    <Button android:id="@+id/interval"
+        android:text="@string/btn_interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addInterval" />
+
+    <Button android:id="@+id/otm"
+        android:text="@string/btn_otm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addOTM" />
+
+    <Button android:id="@+id/amrap"
+        android:text="@string/btn_amrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addAMRAP" />
+
+    <Button android:id="@+id/tabata"
+        android:text="@string/btn_tabata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addTabata" />
+
+    <Button android:id="@+id/timer"
+        android:text="@string/btn_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addTimer" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Timey</string>
+    <string name="action_settings">Settings</string>
+    <string name="overview_title">Work Out Overview</string>
+    <string name="btn_interval">Interval</string>
+    <string name="btn_otm">On-the-Minute (OTM)</string>
+    <string name="btn_amrap">As-many-round-as-possible (AMRAP)</string>
+    <string name="btn_tabata">Tabata</string>
+    <string name="btn_timer">Timer</string>
+    <string name="add_interval">Add</string>
+    <string name="interval_creator_introduction">Choose activity</string>
+    <string name="intro_interval">Specify the lengths of the high and low intensity intervals in seconds.</string>
+    <string name="intro_otm">Please specify the duration of the activity.</string>
+    <string name="intro_amrap">Please specify the duration of the activity.</string>
+    <string name="intro_tabata">Learn how tabata works</string>
+    <string name="intro_timer">Please specify the duration of the timer.</string>
+    <string name="activity_interval_active">Active</string>
+</resources>
